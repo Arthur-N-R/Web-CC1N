@@ -1,0 +1,88 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .logo {
+    height: 100px;
+  }
+  
+  /* Bloco do lado direito: título + h2s */
+  .right-block {
+    display: flex;
+    align-items: center;
+    gap: 300px; /* espaçamento entre o título e os h2 */
+  }
+  
+  /* Título do lado dos h2 */
+  .title {
+    margin: 0;
+    font-size: 48px;
+    white-space: nowrap;
+    gap: 50px;
+  }
+  
+  /* h2 lado a lado */
+  .outras-paginas {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+  
+  .outras-paginas h2 {
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  h1 { font-family: 'Coiny', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4BBB9A;
+  }
+
+  h2 {
+    font-family: "Special Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+  .arthur-font {
+    font-size: 100000px;
+    font-family: 'Coiny', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+  /* estilo do cabelho*/
+  @import url('https://fonts.googleapis.com/css2?family=Special+Gothic&display=swap');
+  .special-gothic-regular {
+    font-family: "Special Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .botao-paginas {
+    text-decoration: none;
+    background-color: #555;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .botao-paginas:hover {
+    background-color: #777;
+  }
+  /*body*/
+  body {
+    background-color: #4BBB9A;
+  }
+  

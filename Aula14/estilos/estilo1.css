@@ -1,0 +1,36 @@
+.divtratada{
+    display: inline-block;
+    background-color: lightcyan;
+    text-align: center;
+    height:auto;
+    width:1900px;
+    border: 1px solid black;
+
+}
+
+.divdestratada{  
+    display: inline-block;
+    background-color: lightcyan;
+    text-align: center;
+    height:200px;
+    width:200px;
+    border: 1px solid black;
+
+}
+
+.divmaltratada{
+    display: inline-block;
+    background-color: lightcyan;
+    text-align: center;
+    height:200px;
+    width:200px;
+    border: 1px solid black;
+}
+
+div p {
+    display: none;
+}
+
+.divmaltratada :hover > p {
+    background-color: yellow;
+}

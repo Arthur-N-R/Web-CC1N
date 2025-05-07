@@ -1,0 +1,33 @@
+body {
+    background-color: lightgreen;
+}
+h1 {
+    font-family: fantasy;
+    color: mediumblue;
+}
+
+.divtratada{
+    display: inline-block;
+    background-color: lightcyan;
+    text-align: center;
+    height:auto;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5%;
+
+}
+
+.dividida{ 
+    display: inline-block;
+    background-color: lightcyan;
+    text-align: center;
+    height:auto;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5%;
+  
+}
+
+button{
+    background-color: ;
+}

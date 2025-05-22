@@ -1,0 +1,30 @@
+body {
+    background-color: aquamarine;
+}
+
+.uvas {
+    align-self: center;
+    background-color: burlywood;
+    border-radius: 10px;
+    border: 10px;
+    border-color: black;
+    border-width: 10px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    size: 100px;
+    background-color:darkgreen;
+    color: yellow;
+    border-radius: 5px;
+    border-width: 10px;
+}
+
+.resposta{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+
+}
+
